@@ -1,0 +1,17 @@
+第一种方法是使用xmodmap。建立一个新文件~/.Xmodmap，添加以下内容：
+ 
+remove Lock = Caps_Lock
+remove Control = Control_L
+keysym Control_L = Caps_Lock
+keysym Caps_Lock = Control_L
+add Lock = Caps_Lock
+add Control = Control_L
+然后执行
+ 
+xmodmap ~/.Xmodmap 2>/dev/null
+就行了。如果不想每次启动都手动输入命令，可以把命令写到~/.xinitrc中。注意如果把命令写到~/.bashrc中，每次新开一个终端或tab上述命令都会被执行一次，这样键位又换回来了。
+ 
+另一种方法是使用setxkbmap命令。只需执行下面的命令：
+ 
+setxkbmap -option ctrl:swapcaps
+就行了。而且可以把命令放到~/.bashrc中，重复执行并不影响。
