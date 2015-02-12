@@ -1,5 +1,0 @@
-djiang book 学习指南
-====================
-##django 开发服务器管理界面 没有样式的原因
-在**setting.py**文件里, **INSTALLED_APPS**下面的*django.contrib.staticfiles*注释掉了,去掉此注释
-重启开发服务器,CSS样式就回来了
