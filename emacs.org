@@ -36,3 +36,20 @@ cua-mode下可以用以下命令进行列操作：
 还有一些其他的命令可以直接看cua-base.el(emacs22之后已经自带。另无意中发现一个阅读package说明的方法: M-x finder-commentary)。
 
 Emacs用户手册里面对CUA介绍得比较简单，可到原网站阅读说明 http://www.cua.dk/cua.html
+
+** 养眼绿色设置
+R - 204 - CC(hex)
+
+G - 232 - E8 (hex)
+
+B - 207 - CF (hex)
+
+
+
+或设置色调，饱和度和亮度
+
+Hue - 85
+
+Sat - 90
+
+Lum - 205
