@@ -1,0 +1,21 @@
+ python绝对简明手册
+===================
+
+* try...except..finally
+* List
+** 内建函数
+1.  append(x) 追加到链尾
+2.  extend(L) 追加到一个列表
+3.  insert(i,x) 在位置i插入X
+4.  remove(x) 删除第一个值为x的元素，如果不存在抛出异常
+5.  reverse() 反转序列
+6.  pop([i]) 返回并删除位置为i的元素，i默认为最后一个元素，[]表示i为可选的
+7.  index(x) 返回一个值为x的元素，不存在抛出异常
+8.  count(x) 返回X出现的次数
+9.  sort() 排序
+** set
+set(集合): 无序不重复的元素集
+** lambda函数
+可以是单参数，也可以是多参数的
+** *para,**para
+*para 表示接受一个元组，**para 接受一个字典
